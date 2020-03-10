@@ -12,15 +12,10 @@ namespace Calculator
         {
             Console.Title = "aplikasi calculator";
 
-            //int a = 10;
-            //int b = 6;
+            int a = 10;
+            int b = 6;
 
-            Console.Write("inputkan nilai a = ");
-            int a = int.Parse(Console.ReadLine()); //proses casting
-
-            Console.Write("inputkan nilai b = ");
-            int b = int.Parse(Console.ReadLine()); //proses casting
-
+            
             Console.WriteLine(); //tambahkan baris kosong
      
             Console.WriteLine("hasil penambahan " + a + " + " + b + " = " + penambahan(a, b));
